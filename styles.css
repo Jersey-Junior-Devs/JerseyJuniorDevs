@@ -1,8 +1,21 @@
 header {
-	background: linear-gradient(to right, rgba(151, 73, 210, 0.6), rgb(109, 207, 238, 0.6));
+	background-image: linear-gradient(rgba(151, 73, 210, 0.6), rgb(109, 207, 238, 0.6));
 	color: white;
-	padding-top: 50px;
+	padding-top: 80px;
 	padding-bottom: 50px;
 }
 
+#nav-buttons{
+  display: flex;
+  justify-content: flex-end;
+}
 
+.navbar{
+	background-color: transparent;
+	color: white; !important;
+}
+
+.navbar.scrolled {
+  background-color: rgb(143, 225, 247); !important;
+  transition: background-color 200ms linear;
+}
