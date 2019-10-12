@@ -6,6 +6,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="./lib/jquery-3.4.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="./lib/typewriter.js"></script>
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -31,7 +33,9 @@
 </nav>
 <header>
 	<div class="text-center" id="header">
-		<h1>Jersey Junior Devs</h1></br>
+		<span class="typewriter">
+Jersey Junior Devs
+		</span>
 		<h2>Page under construction</h2></br>
 
 		<p>This page is the future website of Jersey Junior Devs, built by members of the community themselves.</p>
@@ -73,6 +77,13 @@ $(function () {
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
+
+$(function() {
+	$(".typewriter").typewriter({
+	'speed':100// default: 300
+	});
+});
+
 
 </script>
 </html>
