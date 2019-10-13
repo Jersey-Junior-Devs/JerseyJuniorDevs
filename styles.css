@@ -24,7 +24,7 @@ header {
 }
 
 .navbar.scrolled {
-  background-color: rgb(143, 225, 247); !important;
+  background-color: rgb(213, 231, 214); !important;
   transition: background-color 200ms linear;
 }
 
@@ -36,8 +36,6 @@ header {
 
 #join{
 	background-image: linear-gradient(rgb(27,48,34), rgb(213, 231, 214));
-	padding-top: 50px;
-	font-weight: 400;
+	padding:50px 50px;
+	font-weight: 800;
 }
-
- font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
