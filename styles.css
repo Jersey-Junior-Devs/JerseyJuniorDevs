@@ -1,8 +1,16 @@
+body{
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
 header {
-	background-image: linear-gradient(rgba(151, 73, 210, 0.6), rgb(109, 207, 238, 0.6));
-	color: white;
+	background-color: rgb(27,48,34);
+	color: rgb(217,229,214);
 	padding-top: 80px;
 	padding-bottom: 50px;
+}	
+
+.space{
+	height:500px;
 }
 
 #nav-buttons{
@@ -19,3 +27,17 @@ header {
   background-color: rgb(143, 225, 247); !important;
   transition: background-color 200ms linear;
 }
+
+#title{
+	font-size: 3em;
+	font-weight: 700;
+	color: rgb(217,229,214);
+}
+
+#join{
+	background-image: linear-gradient(rgb(27,48,34), rgb(213, 231, 214));
+	padding-top: 50px;
+	font-weight: 400;
+}
+
+ font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
