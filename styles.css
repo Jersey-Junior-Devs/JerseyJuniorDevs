@@ -1,12 +1,19 @@
 body{
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	color: rgb(44,66,81);
 }
 
 header {
-	background-color: rgb(27,48,34);
-	color: rgb(217,229,214);
+	background-color: rgb(244,244,237);
+	color: rgb(118,190,208);
+	font-weight: bold;
 	padding-top: 80px;
 	padding-bottom: 50px;
+}
+
+.nav-link{
+	color: rgb(44,66,81); 
+	font-weight: bolder;
 }	
 
 .space{
@@ -24,18 +31,43 @@ header {
 }
 
 .navbar.scrolled {
-  background-color: rgb(213, 231, 214); !important;
+  background-color: rgb(118,190,208); !important;
   transition: background-color 200ms linear;
 }
 
 #title{
 	font-size: 3em;
 	font-weight: 700;
-	color: rgb(217,229,214);
+	color: rgb(44,66,81);
 }
 
 #join{
-	background-image: linear-gradient(rgb(27,48,34), rgb(213, 231, 214));
+	background-color: rgb(244,244,237);
 	padding:50px 50px;
 	font-weight: 800;
 }
+
+#links{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding:80px 50px 50px 50px;
+	background-color: rgb(244,244,237);
+}
+
+.links-card{
+	background-color: rgb(244,244,237);
+	border:0px;
+	font-size:1.2rem;
+}
+
+.links-img:hover{
+	width:16rem;
+}
+
+.step{
+	color: rgb(247,203,21);
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
